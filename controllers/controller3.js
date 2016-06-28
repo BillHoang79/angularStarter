@@ -1,12 +1,12 @@
-angular.module('myApp.home', ['ngRoute'])
+angular.module('myApp.pageTwo', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/home', {
-    templateUrl: 'views/home.html',
-    controller: 'HomeCtrl'
+  $routeProvider.when('/pageTwo', {
+    templateUrl: 'views/pageTwo.html',
+    controller: 'PageTwoCtrl'
   });
 }])
 
-.controller('HomeCtrl', ['$scope',,function($scope) {
+.controller('PageTwoCtrl', ['$scope',function($scope) {
  
  }]);

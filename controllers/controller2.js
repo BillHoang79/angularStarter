@@ -1,12 +1,12 @@
-angular.module('myApp.submit', ['ngRoute'])
+angular.module('myApp.pageOne', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/home', {
-    templateUrl: 'views/submit.html',
-    controller: 'HomeCtrl'
+  $routeProvider.when('/pageOne', {
+    templateUrl: 'views/pageOne.html',
+    controller: 'PageOneCtrl'
   });
 }])
 
-.controller('HomeCtrl', ['$scope',function($scope) {
+.controller('PageOneCtrl', ['$scope',function($scope) {
  
  }]);
